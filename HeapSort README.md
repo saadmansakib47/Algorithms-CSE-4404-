@@ -14,6 +14,9 @@ Heap Sort is a comparison-based sorting algorithm that uses a binary heap data s
 
 4. **Completion**: The final sorted list is now complete.
 
+## Time Complexity
+O(n log n), where n is the number of elements in the array.
+
 ## Pseudocode
 
 ```plaintext
