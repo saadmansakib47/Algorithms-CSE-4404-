@@ -16,6 +16,9 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 
 5. **Completion**: The entire list is now sorted.
 
+## Time Complexity
+O(n^2) in the worst case, where n is the number of elements in the array.
+
 ## Pseudocode
 
 ```plaintext
