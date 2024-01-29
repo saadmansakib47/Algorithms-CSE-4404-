@@ -20,6 +20,9 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 7. **Completion**: Continue the process until the entire list is sorted.
 
+##  Time Complexity : 
+O(n^2) in the worst case, where n is the number of elements in the array.
+
 ## Pseudocode
 
 ```plaintext
