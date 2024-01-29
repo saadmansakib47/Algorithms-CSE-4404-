@@ -12,6 +12,9 @@ Merge Sort is a divide-and-conquer algorithm that divides the unsorted list into
 
 3. **Completion**: The final sorted list is now complete.
 
+## Time Complexity
+O(n log n), where n is the number of elements in the array.
+
 ## Pseudocode
 
 ```plaintext
