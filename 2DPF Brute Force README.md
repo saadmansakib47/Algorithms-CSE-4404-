@@ -13,6 +13,9 @@ The brute force approach for 2D Peak Finding involves scanning the entire matrix
 3. If the current element satisfies the peak condition, it is a peak.
 4. Return the coordinates of the first peak element found.
 
+## Time Complexity
+O(m * n), where m is the number of rows and n is the number of columns in the 2D matrix.
+
 ### Pseudocode
 
 ```plaintext
