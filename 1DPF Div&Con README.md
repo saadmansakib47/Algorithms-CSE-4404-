@@ -14,6 +14,9 @@ The divide and conquer approach for 1D Peak Finding involves recursively dividin
 4. If the middle element is less than its left neighbor, search in the left half.
 5. If the middle element is less than its right neighbor, search in the right half.
 
+## Time Complexity 
+O(log n), where n is the size of the array. (Assuming the divide step takes constant time)
+
 ### Pseudocode
 
 ```plaintext
