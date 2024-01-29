@@ -15,6 +15,9 @@ The linear approach ensures that at least one peak element is found because, dur
 3. If the current element is greater than or equal to its neighbors (if they exist), it is a peak element.
 4. Return the index of the first peak element found.
 
+### Time Complexity :
+O(n), where n is the size of the array. 
+
 ### Pseudocode
 
 ```plaintext
@@ -23,5 +26,5 @@ function findPeakLinear(arr):
         if (i == 0 or arr[i - 1] <= arr[i]) and (i == length(arr) - 1 or arr[i + 1] <= arr[i]):
             return i
 
-## Time Complexity :
-O(n), where n is the size of the array.
+
+
