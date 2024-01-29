@@ -14,6 +14,9 @@ Quick Sort is a divide-and-conquer sorting algorithm that uses a pivot element t
 
 4. **Combine**: Combine the sorted sub-arrays to get the final sorted array.
 
+## Time Complexity
+O(n^2) in the worst case, but O(n log n) on average, where n is the number of elements in the array.
+
 ## Pseudocode
 
 ```plaintext
