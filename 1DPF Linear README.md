@@ -22,3 +22,6 @@ function findPeakLinear(arr):
     for i from 0 to length(arr) - 1:
         if (i == 0 or arr[i - 1] <= arr[i]) and (i == length(arr) - 1 or arr[i + 1] <= arr[i]):
             return i
+
+## Time Complexity :
+O(n), where n is the size of the array.
