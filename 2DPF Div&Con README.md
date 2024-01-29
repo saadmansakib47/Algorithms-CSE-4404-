@@ -16,6 +16,9 @@ The divide and conquer approach for 2D Peak Finding involves recursively dividin
 
 4. **Return Peak**: If the condition is met, return the coordinates of the current element; otherwise, decide whether to search in the left or right submatrix based on the neighbor with a larger value.
 
+## Time Complexity 
+O(m * log n), where m is the number of rows and n is the number of columns in the 2D matrix
+
 ### Pseudocode
 
 ```plaintext
