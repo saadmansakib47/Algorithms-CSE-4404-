@@ -20,6 +20,12 @@ In this approach, we start from any column in the middle of the matrix and move 
 
 5. **Move to Larger Neighbor**: Move to the neighboring column with a larger value. The specific strategy for choosing the neighboring column depends on the implementation.
 
+
+## Time Complexity: 
+O(m), where m is the number of rows.
+
+
+
 ### Pseudocode
 
 ```plaintext
