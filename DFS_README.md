@@ -19,7 +19,8 @@ Depth-First Search (DFS) is a graph traversal algorithm that explores as far as 
 
 ## Pseudocode
 
-DFS(adj, V, start):
+```plaintext
+function DFS(adj, V, start):
 // Initialize stack to store vertices
 stack = empty stack
 // Mark all vertices as not visited
