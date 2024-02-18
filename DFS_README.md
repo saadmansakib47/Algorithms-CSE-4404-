@@ -17,6 +17,10 @@ Depth-First Search (DFS) is a graph traversal algorithm that explores as far as 
      - Explore its adjacent vertices and push them onto the stack.
 4. Repeat until the stack is empty.
 
+## Time Complexity
+
+The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+
 ## Pseudocode
 
 ```plaintext
@@ -42,6 +46,3 @@ while stack is not empty:
             // Push the neighbor onto the stack
             stack.push(neighbor)
 
-## Time Complexity
-
-The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
