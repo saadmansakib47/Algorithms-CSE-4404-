@@ -1,3 +1,28 @@
+/*
+Grateful to : Rafi Kamal, BUET '10 for this solution.
+Algorithm: BFS
+
+In this problem, three letters comprises a node/state. By changing any letter, you can go to
+one node/state to another node/state. So, say now you are in node/state 'adx'. From this node
+you can go the following nodes (assuming that the following nodes are not forbidden):
+bdx -- changing first letter
+zdx
+aex -- changing second letter
+acx
+ady -- changing third letter
+adw 
+
+So you can say, these 6 nodes have an edge with the node 'adx'. So you have the nodes and edges,
+construct the graph (keep forbidden words in mind) and then do a BFS from the calcuating the
+shortest path between the starting and ending word.
+
+*/
+
+
+
+
+
+
 #include <cstdio>
 #include <cstring>
 #include <iostream>
